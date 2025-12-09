@@ -21,14 +21,13 @@ public class Instructor extends Person{
     public void setspecialization(String specialization){
         this.specialization = specialization;
     }
-    @Override
-    public String toString(){
-        return "Instructor Info { " +
-                "Name : " +getName() + '\'' +
-                " , Age : " + getage() +
-                " , Email : " + getEmail() + '\''+
-                " , Instructor ID : " + getInstructorID() + '\'' +
-                " , specialization : " + getspecialization() + '\'' +
-                '}';
-    }
+  @Override
+        public void displayInfo(){
+            System.out.println("Instructor Info : ");
+            System.out.println("Name : " + getName() );
+            System.out.println("Age : " +getage());
+            System.out.println("Email :" + getEmail());
+            System.out.println("Instructor ID : " + getInstructorID() );
+            System.out.println("specialization : " +getspecialization());
+        }
 }
