@@ -38,7 +38,7 @@ public class maintest {
 
         Thread t3 = new Thread(() -> {
             System.out.println("\n Thread 3: Instructor Info ");
-            System.out.println(inst.toString());
+            inst.displayInfo();
         });
         try {
             t1.start();
