@@ -1,5 +1,5 @@
 package project;
-
+import java.util.Scanner;
 public class maintest {
     public static void main(String[] args) {
        
@@ -9,7 +9,7 @@ public class maintest {
 
         System.out.println("**Welcome to University Management System **");
 
-        // 1. Input Student Data
+        //  Input Student Data
         System.out.println("\n[1] Enter Student Details:");
         System.out.print("Name: "); String sName = sc.nextLine();
         System.out.print("Age: "); int sAge = sc.nextInt(); sc.nextLine(); 
@@ -34,7 +34,7 @@ public class maintest {
 
         Instructor instructor = new Instructor(iName, iAge, iID, iEmail, iPhone, iRefID, iSpec);
 
-        // 3. Input Course Data
+        //  Input Course Data
         System.out.println("\n[3] Enter Course Details:");
         System.out.print("Course Name: "); String cName = sc.nextLine();
         System.out.print("Course ID: "); String cID = sc.nextLine();
