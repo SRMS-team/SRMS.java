@@ -1,5 +1,5 @@
 # Student Recored  Managment 
-## 1. How to Compile
+##1. How to Compile
 Open the command line and navigate to the project directory:
 ```bash
 javac *.java
@@ -8,7 +8,7 @@ javac *.java
 ```bash
 java Main
 ```
-### 3. How to Test
+##3. How to Test
 
 1. Compile and run the project.
 2. When the program asks for input, enter test values using the keyboard.
