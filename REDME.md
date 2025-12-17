@@ -1,5 +1,5 @@
 # Student Recored  Managment 
-##1. How to Compile
+##1. How to Compile<br>
 Open the command line and navigate to the project directory:
 ```bash
 javac *.java
